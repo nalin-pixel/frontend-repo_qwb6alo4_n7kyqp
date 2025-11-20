@@ -3,59 +3,9 @@
 > vite
 
 
-  VITE v5.4.20  ready in 200 ms
+  VITE v5.4.20  ready in 237 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.28.192:3000/
-2:52:29 PM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/Hero.jsx:39:176: ERROR: Expected identifier after "http:" in namespaced JSX name
-2:52:29 PM [vite] ✨ new dependencies optimized: lucide-react, framer-motion
-2:52:29 PM [vite] ✨ optimized dependencies changed. reloading
-2:52:30 PM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/Hero.jsx:39:176: ERROR: Expected identifier after "http:" in namespaced JSX name
-2:52:35 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/components/Hero.jsx:39:176: ERROR: Expected identifier after "http:" in namespaced JSX name
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/Hero.jsx:39:176
-  
-  Expected identifier after "http:" in namespaced JSX name
-  37 |        </div>
-  38 |  
-  39 |        <div className="pointer-events-none absolute inset-0 [mask-image:radial-gradient(80%_60%_at_50%_0%,black,transparent)] bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 100 100\"><filter id=\"n\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.8\" numOctaves=\"2\"/></filter><rect width=\"100%\" height=\"100%\" filter=\"url(%23n)\" opacity=\"0.04\"/></svg>')]" />
-     |                                                                                                                                                                                  ^
-  40 |      </section>
-  41 |    )
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
-2:53:07 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/components/Hero.jsx:39:176: ERROR: Expected identifier after "http:" in namespaced JSX name
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/Hero.jsx:39:176
-  
-  Expected identifier after "http:" in namespaced JSX name
-  37 |        </div>
-  38 |  
-  39 |        <div className="pointer-events-none absolute inset-0 [mask-image:radial-gradient(80%_60%_at_50%_0%,black,transparent)] bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 100 100\"><filter id=\"n\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.8\" numOctaves=\"2\"/></filter><rect width=\"100%\" height=\"100%\" filter=\"url(%23n)\" opacity=\"0.04\"/></svg>')]" />
-     |                                                                                                                                                                                  ^
-  40 |      </section>
-  41 |    )
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+3:15:28 PM [vite] ✨ new dependencies optimized: @splinetool/react-spline
+3:15:28 PM [vite] ✨ optimized dependencies changed. reloading
